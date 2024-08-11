@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Sell</title>
+    </head>
+    <link rel="stylesheet" href="style2.css"/>
+    <header>
+        <a href="\HTML_OLX2\main.html" class = "logo">OneSec Olx<span>.</span></a>
+        
+        <nav class = "navbar">
+            <a href = "/HTML_OLX2/main.html">buy products</a>
+            <a href = "/HTML_OLX2/main.html">about</a>
+            <a href = "/HTML_OLX2/main.html">register</a>
+        </nav>
+     </header>
+
+
+    <body>
+        <section class = "sells">
+            <h1>Sell Your Product</h1>
+           <form action="#" class="action">
+            <div class = "category">
+                <p>Choose A Category:</p>
+                <input type="radio" id="Automobiles" name="Category" value="Automobiles">
+                   <label for="html">Automobiles</label><br>
+                <input type="radio" id="Clothing and Accessories" name="Category" value="Clothing and Accessories">
+                    <label for="css">Clothing and Accessories</label><br>
+                <input type="radio" id="Appliances and Electronics" name="Category" value="Appliances and Electronics">
+                     <label for="javascript">Appliances and Electronics</label>
+                <input type="radio" id="Other" name="Category" value="Other">
+                     <label for="Other">Other</label>
+             </div>
+            <div class = "inputs">
+                <label>Enter Product type [Mention Category if not listed above]:</label>
+                <input type="text" placeholder="Enter Product Type"/>
+                <label>Brand:</label>
+                <input type="text" placeholder="Enter Brand"/> 
+                <label>No of Owners:</label>
+                <input type="number" placeholder="Enter No. of Owners"/>     
+            </div>
+            <div class = "details">
+                <p>Enter Description and Useful Details on Product :</p>
+                <textarea cols="79" rows="5" style = "resize: none;"></textarea>
+            </div>
+            <div class = "inputs">
+                <label>Set a price:</label>
+                <input type="number" placeholder="Enter price"/>
+                <label>Enter Name:</label>
+                <input type="text" placeholder="Enter name"/>
+                <label>Enter Email id:</label>
+                <input type="email" placeholder="Enter email"/>
+                <label>Enter Contact No:</label>
+                <input type="number" placeholder="Enter contact no."/>
+            </div>
+            <div class = "details">
+                <p>Address:</p>
+                <textarea cols="79" rows="3" style = "resize: none;"></textarea>
+            </div>
+            <div class = "images">
+                <label>Upload Images of your product:</label>
+                <input type="file" id="imageUpload" name="imageUpload[]" accept="image/*" multiple>
+            </div>           
+           </form>
+           <div class = "icons">
+            <a href = "#Sell" class = "btn">SELL</a>
+           </div>
+        </section>
+    </body>
+</html>

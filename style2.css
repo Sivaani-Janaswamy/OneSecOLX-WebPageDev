@@ -1,0 +1,157 @@
+:root{
+    --pink: #e84393;
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    outline:none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 1s linear;
+}
+html{
+    font-size: 60.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+
+}
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:rgb(225, 196, 196);
+    padding:2rem 9%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+section{
+    padding:2rem;
+
+}
+header .logo{
+    font-size:3rem;
+    color: black;
+    font-weight: bolder;
+}
+header .logo span{
+    color:rgb(218, 82, 104);
+}
+header .navbar a{
+     font-size:2rem;
+     padding:0 1.5rem;
+     color: black;
+}
+header .navbar a:hover{
+    color:rgb(218, 82, 104);
+}
+header .icons a:hover{
+    color:rgb(218, 82, 104);
+ }
+body{
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 30px;
+    padding-top: 100px;
+    background-color: white;
+}
+.sells{
+ position:center;
+ max-width: 700px;
+ width:100%;
+ background: pink;
+ padding:25px;
+ border-radius: 7px;
+ box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.sells h1{
+    font-weight:bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:5.5rem;
+    color:rgb(173, 10, 105);
+    font-weight:500;
+    text-align:center;
+    padding-bottom: 15px;
+}
+
+.sells form {
+    font-size: 1.8rem;
+    justify-content: space-around;
+}
+.sells form .category{
+    display: grid left;
+    text-align: left;
+}
+.sells form .category input{
+    display:table-row;
+}
+.sells .inputs{
+    padding-top: 10px;
+}
+.sells .inputs input{
+    display:flex;
+    justify-content: space-around;
+    padding: 7px;
+    
+}
+.sells .inputs input{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+.sells .inputs input:focus{
+    border-color: rgb(255, 0, 119);
+    outline: none;
+}
+.sells .icons{
+    padding-top: 2rem;
+}
+.sells .icons a{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-left:28rem;
+
+}
+.sells .icons:hover a{
+    color:white;
+}
+
+.btn{
+    color: var(--pink);
+    padding: 16px 32px;
+    border: 2px solid rgb(255, 0, 106);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    
+}
+.btn:hover a{
+    color:white;
+}
+.btn:hover{
+    background-color: var(--pink);
+}
+
+
